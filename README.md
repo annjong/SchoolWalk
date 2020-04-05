@@ -4,8 +4,8 @@
 通过本程序可以快速的找到同僚，高效解决了同学之间的室内外娱乐活动问题，增进同学之间感情。依托此程序发布信息，可以让有共同目标的人聚在一起。相互促进、共同进步。
 
 #### 项目截图
-![首页截图](https://raw.githubusercontent.com/annjong/SchoolWalk/SchoolWalk/miniprogram/image/index.png)
-![个人中心截图](https://raw.githubusercontent.com/annjong/SchoolWalk/SchoolWalk/miniprogram/image/my.png)
+![首页截图](https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/index.png)
+![个人中心截图](https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/my.png)
 
 #### 项目功能
 现实现功能：
