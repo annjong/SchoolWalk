@@ -30,7 +30,7 @@
 - 10.校园课表查询
 
 #### 部署流程
-如果您想了解具体的部署流程，请参考CONTRIBUTING.md文件。
+如果您想了解具体的部署流程，请参考[Deployment.md](https://github.com/annjong/SchoolWalk/blob/SchoolWalk/Deployment.md)文件。
 1.  将文件进行打包下载。
 2.  在微信开发者工具中导入SchooWalk项目。
 3.  将app.js文件中的env修改为自己的环境。
