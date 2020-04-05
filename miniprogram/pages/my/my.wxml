@@ -1,0 +1,41 @@
+<!--pages/my/my.wxml-->
+<block wx:for="{{userList}}">
+<view class="my-top">
+  <view class="mession">个人中心</view>
+  <view class="my-info">
+    <view class="my-image">
+      <image src="{{item.avatarUrl}}" mode="widthFix" class="my-icon"></image>
+    </view>
+    <view wx:for="{{user}}">
+      <view class="my-name">{{item.username}}</view>
+      <view class="my-number">{{item.num}}</view>
+      <view class="my-school">
+      <view class="my-grade">{{item.grade}}</view>
+      <view class="my-class">{{item.class}}</view>
+      </view>
+    </view>
+   </view>
+</view>
+
+<view>
+  <view wx:for="{{user}}">
+  <van-cell
+    is-link
+    title="个人信息"
+    link-type="navigateTo"
+    url="/pages/infoUpdate/infoUpdate?id={{item._id}}"
+  />
+  </view>
+  <van-cell
+    is-link
+    title="提交反馈"
+    link-type="navigateTo"
+    url="/pages/feedback/feedback"
+  />
+  
+</view>
+</block>
+  <view class="button">
+  <van-button type="info" size="normal" round open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信一键登录</van-button>
+  </view>
+

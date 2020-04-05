@@ -1,0 +1,15 @@
+<!--pages/feedback/feedback.wxml-->
+<view class="title">意见反馈</view>
+<view class="info">非常感谢您使用本产品，如果您在使用过程中有任何意见以及对本产品有改进建议，欢迎提供在下方提出你的意见或建议。我们会尽快处理您的信息。</view>
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="请输入您的建议"
+    border="{{ false }}"
+    bind:change="onChange"
+    class="field"
+  />
+  <view class="button">
+  <van-button type="primary" size="large" round bindtap="navigateTo">确定</van-button>
+  </view>
+</van-cell-group>

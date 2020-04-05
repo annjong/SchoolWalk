@@ -1,0 +1,105 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wx7182e61bedd7693d",
+	"projectname": "SchoolWalk",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "study",
+					"pathName": "pages/study/study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "adddetial",
+					"pathName": "pages/adddetial/adddetial",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "学习预约详情",
+					"pathName": "pages/reserveS/reserveS",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人信息",
+					"pathName": "pages/info/info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/infoUpdate/infoUpdate",
+					"pathName": "pages/infoUpdate/infoUpdate",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

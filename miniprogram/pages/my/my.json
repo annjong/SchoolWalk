@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-cell": "../../vant/cell",
+    "van-cell-group": "../../vant/cell-group",
+    "van-button": "../../vant/button"
+  }
+}

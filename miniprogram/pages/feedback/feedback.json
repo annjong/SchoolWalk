@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-field": "../../vant/field",
+    "van-button": "../../vant/button"
+  }
+}

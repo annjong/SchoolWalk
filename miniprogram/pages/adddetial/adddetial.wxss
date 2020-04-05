@@ -1,0 +1,54 @@
+/* pages/adddetial/adddetial.wxss */
+
+.name{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30rpx;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+
+}
+.sectionButton{
+  padding-top: 50rpx;
+}
+.Button{
+  padding-left: 100rpx;
+  margin-right: 100rpx;
+}
+.refresh1{
+  float: left;
+  border-radius: 98rpx;
+  background-color: #3498db;
+  color: white;
+
+}
+.refresh2{
+  float: right;
+  border-radius: 98rpx;
+  background-color: #3498db;
+  color: white;
+}
+
+.top {
+  margin-top: -30px;
+}
+
+.sectionName{
+  margin-top: 20px;
+}
+
+
+.inputMeth{
+  border: 1px solid #c0c0c0;
+  margin-right: 40rpx;
+}
+
+.textMeth{
+  float: left;
+  width: 30%;
+  color: rgb(127, 127, 127);
+  font-weight: bolder;
+  margin-right: 10px;
+  text-align: center;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}

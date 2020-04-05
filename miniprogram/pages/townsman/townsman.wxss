@@ -1,0 +1,15 @@
+/* pages/townsman/townsman.wxss */
+.title{
+  text-align: center;
+  margin: 0auto;
+  font-size:20px;
+  font-weight:500;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+}
+.button{
+  text-align: center;
+  margin: 0auto;
+  padding-top: 40rpx;
+}

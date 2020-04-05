@@ -1,0 +1,40 @@
+<!--pages/reserveS/reserveS.wxml-->
+<view class="event-list">
+    <view class="event-img">
+      <image mode="widthFix" src="https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/study-background.jpg"></image>
+    </view>
+    <view class="event-content">
+      <view class="event-title">{{study.title}}</view>
+      <view class="event-desc">{{study.dese}}</view>
+      <view class="event-box">
+        <view class="event-address">预约时间</view>
+        <view class="event-time">{{study.price}}</view>
+      </view>
+      <view class="event-box">
+        <view class="event-address">预约地点</view>
+        <view class="event-time">{{study.local}}</view>
+      </view>
+      <view class="event-box">
+        <view class="event-address">预约人数</view>
+        <view class="event-time">{{study.num}}</view>
+      </view>
+    </view>
+</view>
+<view class="information">个人信息</view>
+<view wx:for="{{user}}">
+<van-card
+  desc="{{item.class}}"
+  title="{{item.username}}"
+  centered
+  thumb-class="thumb-class"
+  thumb="../../image/icon.png"
+
+/>
+</view>
+<view class="info"></view>
+<van-submit-bar
+  label="点击按钮即可预约"
+  button-text="预约"
+  bind:submit="onSubmit"
+/>
+

@@ -1,0 +1,56 @@
+/* pages/info/info.wxss */
+.title{
+  text-align: center;
+  margin: 0auto;
+  font-size:15px;
+  font-weight:500;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+
+}
+
+.sectionButton{
+  padding-top: 50rpx;
+}
+.Button{
+  padding-left: 100rpx;
+  margin-right: 100rpx;
+}
+.refresh1{
+  float: left;
+  border-radius: 98rpx;
+  background-color: #3498db;
+  color: white;
+
+}
+.refresh2{
+  float: right;
+  border-radius: 98rpx;
+  background-color: #3498db;
+  color: white;
+}
+
+.top {
+  margin-top: -30px;
+}
+
+.sectionName{
+  margin-top: 20px;
+}
+
+
+.inputMeth{
+  border: 1px solid #c0c0c0;
+  margin-right: 40rpx;
+}
+
+.textMeth{
+  float: left;
+  width: 30%;
+  color: rgb(127, 127, 127);
+  font-weight: bolder;
+  margin-right: 10px;
+  text-align: center;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}

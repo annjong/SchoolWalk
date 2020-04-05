@@ -1,0 +1,51 @@
+{
+  
+  "pages": [
+    "pages/index/index",
+    "pages/apidata/apidata",
+    "pages/my/my",
+    "pages/basketball/basketball",
+    "pages/study/study",
+    "pages/townsman/townsman",
+    "pages/adddetial/adddetial",
+    "pages/reserveS/reserveS",
+    "pages/addBasketBall/addBasketBall",
+    "pages/reserveB/reserveB",
+    "pages/info/info",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "校中行",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar":{
+    "color":"#7A7E83",
+    "selectedColor":"#13227a",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/tabBarImage/home.png",
+        "selectedIconPath": "image/tabBarImage/home-active.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/apidata/apidata",
+        "iconPath": "image/tabBarImage/news.png",
+        "selectedIconPath": "image/tabBarImage/news-active.png",
+        "text":"历史上的今天"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/tabBarImage/my.png",
+        "selectedIconPath": "image/tabBarImage/my-active.png",
+        "text":"个人"
+      }
+    ]
+  }
+}

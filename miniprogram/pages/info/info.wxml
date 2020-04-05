@@ -1,0 +1,41 @@
+<!--pages/info/info.wxml-->
+
+
+	<view class="title">个人信息</view>
+  <form bindsubmit="submitform">
+    <view class="sectionName">
+      <text class="textMeth">姓名</text>
+      <input class="inputMeth" name="username" placeholder="请输入姓名"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">性别</text>
+      <input class="inputMeth" name="sex" placeholder="请输入性别"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">学号</text>
+      <input class="inputMeth" name="num" placeholder="请输入学号"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">学部</text>
+      <input class="inputMeth" name="grade" placeholder="请输入学部"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">班级</text>
+      <input class="inputMeth" name="class" placeholder="请输入班级"></input>
+    </view>
+
+
+    <view class="sectionButton">
+      <view class="Button">
+      <button class="refresh1" style="width:250rpx" bindtap="clearInputEvent"  form-type="reset">清空</button>
+      </view>
+      <view class="Button">
+      <button class="refresh2" style="width:250rpx"  bindtap="btn"  form-type="submit">提交</button>
+      </view>
+    </view>
+
+  </form>

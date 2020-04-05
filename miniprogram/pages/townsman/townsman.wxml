@@ -1,0 +1,5 @@
+<!--pages/townsman/townsman.wxml-->
+<view class="title">功能正在开发中，敬请期待！</view>
+<view class="button">
+<van-button type="primary" size="large" round bindtap="navigateTo">确定</van-button>
+</view>

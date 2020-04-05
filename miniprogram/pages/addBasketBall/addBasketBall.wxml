@@ -1,0 +1,48 @@
+
+	<view class="name">请填写您的基本信息</view>
+  <form bindsubmit="submitform">
+    <view class="sectionName">
+      <text class="textMeth">标题</text>
+      <input class="inputMeth" name="title" placeholder="一句话描述你的需求"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">信息</text>
+      <input class="inputMeth" name="dese" placeholder="一句话描述你的个人信息"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">分类</text>
+      <input class="inputMeth" name="show" placeholder="请输入类别"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">预约人数</text>
+      <input class="inputMeth" name="num" placeholder="请输入您想找几个人"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">预约时间</text>
+      <input class="inputMeth" name="price" placeholder="例：2020-04-02 18:30"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">预约地点</text>
+      <input class="inputMeth" name="local" placeholder="请输入预约地点"></input>
+    </view>
+
+    <view class="sectionName">
+      <text class="textMeth">其他留言</text>
+      <input class="inputMeth" name="others" placeholder="请输入您想要留下的其他信息"></input>
+    </view>
+
+    <view class="sectionButton">
+      <view class="Button">
+      <button class="refresh1" style="width:250rpx" bindtap="clearInputEvent"  form-type="reset">清空</button>
+      </view>
+      <view class="Button">
+      <button class="refresh2" style="width:250rpx"  bindtap="btn"  form-type="submit">提交</button>
+      </view>
+    </view>
+
+  </form>

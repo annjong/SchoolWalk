@@ -1,0 +1,34 @@
+<!--pages/study/study.wxml-->
+<van-tabs type="line">
+	<van-tab title="全部预约">
+		<block wx:for="{{study}}">
+			<van-card num="{{item.num}}" price="{{item.price}}" desc="{{item.dese}}" title="{{item.title}}" thumb="https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/study-icon.jpg" thumb-link="../reserveS/reserveS?_id={{item._id}}">
+				<div slot="tags">
+					<van-tag plain type="primary">{{item.show}}</van-tag>
+				</div>
+			</van-card>
+		</block>
+	</van-tab>
+	<van-tab title="约自习">
+  	<block wx:for="{{study}}">
+			<van-card num="{{item.num}}" price="{{item.price}}" desc="{{item.dese}}" title="{{item.title}}" thumb="https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/study-icon.jpg">
+				<div slot="tags">
+					<van-tag plain type="primary">自习</van-tag>
+				</div>
+			</van-card>
+		</block>
+  </van-tab>
+	<van-tab title="约备考">
+  	<block wx:for="{{study}}">
+			<van-card num="{{item.num}}" price="{{item.price}}" desc="{{item.dese}}" title="{{item.title}}" thumb="https://schoolwalk-1301585824.cos.ap-beijing.myqcloud.com/study-icon.jpg" >
+				<div slot="tags">
+					<van-tag plain type="primary">备考</van-tag>
+				</div>
+			</van-card>
+		</block>
+  </van-tab>
+</van-tabs>
+
+<view bindtap='adddetial'>
+	<image class="add_icon" src="../../image/study/plus.png"></image>
+</view>

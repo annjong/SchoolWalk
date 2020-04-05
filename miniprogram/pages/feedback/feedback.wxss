@@ -1,0 +1,26 @@
+/* pages/feedback/feedback.wxss */
+.title{
+  text-align: center;
+  margin: 0auto;
+  font-size:15px;
+  font-weight:500;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+}
+.info{
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 15px;
+  padding-left: 25rpx;
+  padding-bottom: 30rpx;
+  padding-right: 25rpx;
+}
+.feild{
+  width: auto;
+  height: 300rpx;
+}
+.button{
+  text-align: center;
+  margin: 0auto;
+  padding-top: 40rpx;
+}
